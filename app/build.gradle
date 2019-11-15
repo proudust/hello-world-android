@@ -34,6 +34,7 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
+    implementation 'org.koin:koin-androidx-viewmodel:2.0.1'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-beta-3'
     debugImplementation 'com.willowtreeapps.hyperion:hyperion-core:0.9.27'
     debugImplementation 'com.willowtreeapps.hyperion:hyperion-attr:0.9.27'
@@ -42,5 +43,6 @@ dependencies {
     debugImplementation 'com.willowtreeapps.hyperion:hyperion-phoenix:0.9.27'
     debugImplementation 'com.willowtreeapps.hyperion:hyperion-shared-preferences:0.9.27'
     testImplementation 'com.google.truth:truth:1.0'
+    testImplementation 'org.koin:koin-test:2.0.1'
     testImplementation 'org.robolectric:robolectric:4.3.1'
 }
