@@ -25,6 +25,7 @@ android {
     kotlinOptions.jvmTarget = '1.8'
     lintOptions.disable 'GoogleAppIndexingWarning'
     testOptions.unitTests.includeAndroidResources = true
+    dataBinding.enabled = true
 }
 
 dependencies {
