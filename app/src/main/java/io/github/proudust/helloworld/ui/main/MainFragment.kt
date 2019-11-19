@@ -10,10 +10,6 @@ import org.koin.android.ext.android.inject
 
 class MainFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = MainFragment()
-    }
-
     private val viewModel: MainViewModel by inject()
 
     override fun onCreateView(
